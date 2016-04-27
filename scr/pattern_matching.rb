@@ -1,13 +1,11 @@
 class Matcher
 
-  attr_accessor :variables
+  attr_accessor :una_variable
 
-  def initialize
-    @variables=[]
-  end
 
-  def a_variable_name(nombre_variable, tipo_bindind)
-    nombre_variable = tipo_bindind
+
+  def a_variable_name(nombre_variable, valor)
+    nombre_variable = valor
     true
   end
 

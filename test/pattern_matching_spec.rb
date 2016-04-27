@@ -6,8 +6,8 @@ describe 'Pattern Mathing' do
 
 
   it 'test para probar bindear una variable' do
-    a='hola'
     algo = Matcher.new
-    expect(algo.a_variable_name(a, 'anything')).to eq(true)
+    expect(algo.a_variable_name(algo.una_variable, 'test')).to eq(true)
+
   end
 end
