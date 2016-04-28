@@ -12,8 +12,8 @@ class Matcher
 
   end
 
-  def type
-
+  def type(objeto,tipo)
+    objeto.class.equal?tipo
   end
 end
 
