@@ -1,11 +1,10 @@
 class Matcher
 
-  attr_accessor :una_variable
+  attr_accessor :unaVariable
 
+  def a_variable_name(valor)
 
-
-  def a_variable_name(nombre_variable, valor)
-    nombre_variable = valor
+    unaVariable = self.instance_eval{valor}
     true
   end
 
